@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { SafeAreaView, StyleSheet, Text, View } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 import WelcomeScreen from "./app/screens/WelcomeScreen";
@@ -9,13 +9,10 @@ import colors from "./app/config/colors";
 import AppCard from "./app/components/AppCard";
 import AppText from "./app/components/AppText";
 import ListItem from "./app/components/ListItem";
+import MessagesScreen from "./app/screens/MessagesScreen";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <ListItem title="Hamza Abid" subTitle="5 listings" />
-    </View>
-  );
+  return <MessagesScreen />;
 }
 
 const styles = StyleSheet.create({

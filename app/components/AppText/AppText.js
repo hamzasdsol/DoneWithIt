@@ -13,7 +13,7 @@ export default AppText;
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 18,
+    fontSize: Platform.OS === "android" ? 16 : 18,
     fontFamily: Platform.OS === "android" ? "Roboto" : "Avenir",
   },
 });
