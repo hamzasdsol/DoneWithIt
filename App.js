@@ -16,9 +16,10 @@ import Icon from "./app/components/Icon";
 import Screen from "./app/components/Screen";
 
 import Placeholder from "./app/assets/icon.png";
+import ListingsScreen from "./app/screens/ListingsScreen";
 
 export default function App() {
-  return <MyAccountScreen />;
+  return <ListingsScreen />;
 }
 
 const styles = StyleSheet.create({

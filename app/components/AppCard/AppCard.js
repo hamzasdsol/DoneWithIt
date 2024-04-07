@@ -11,7 +11,7 @@ const AppCard = ({
 }) => {
   return (
     <View style={styles.container}>
-      <Image style={styles.image} source={Chair} resizeMode="repeat" />
+      <Image style={styles.image} source={image} resizeMode="stretch" />
       <View style={styles.text_container}>
         <Text style={styles.title}>{title}</Text>
         <Text style={styles.subtitle}>{subtitle}</Text>
@@ -27,7 +27,8 @@ const styles = StyleSheet.create({
     width: "100%",
     borderRadius: 20,
     overflow: "hidden",
-    backgroundColor: "#fff",
+    backgroundColor: colors.white,
+    marginVertical: 4,
   },
   image: {
     width: "100%",
