@@ -10,9 +10,15 @@ import AppCard from "./app/components/AppCard";
 import AppText from "./app/components/AppText";
 import ListItem from "./app/components/ListItem";
 import MessagesScreen from "./app/screens/MessagesScreen";
+import MyAccountScreen from "./app/screens/MyAccountScreen";
+import AccountsListItem from "./app/components/AccountsListItem";
+import Icon from "./app/components/Icon";
+import Screen from "./app/components/Screen";
+
+import Placeholder from "./app/assets/icon.png";
 
 export default function App() {
-  return <MessagesScreen />;
+  return <MyAccountScreen />;
 }
 
 const styles = StyleSheet.create({
