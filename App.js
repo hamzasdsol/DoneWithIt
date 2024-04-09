@@ -11,7 +11,7 @@ import AppText from "./app/components/AppText";
 import ListItem from "./app/components/ListItem";
 import MessagesScreen from "./app/screens/MessagesScreen";
 import MyAccountScreen from "./app/screens/MyAccountScreen";
-import AccountsListItem from "./app/components/AccountsListItem";
+
 import Icon from "./app/components/Icon";
 import Screen from "./app/components/Screen";
 
